@@ -1,0 +1,18 @@
+{
+  "name": "vacation-spots",
+  "version": "1.0.0",
+  "description": "Landing page vacation-spots",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/styles.css -w"
+  },
+  "author": "Talisson Santos",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  },
+  "dependencies": {
+    "jquery": "^3.7.0",
+    "live-server": "^1.2.2"
+  }
+}
