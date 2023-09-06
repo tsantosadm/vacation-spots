@@ -4,7 +4,7 @@
   "description": "Landing page vacation-spots",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/styles.css -w"
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
   "author": "Talisson Santos",
   "license": "ISC",
