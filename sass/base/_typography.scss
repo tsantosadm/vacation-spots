@@ -15,7 +15,7 @@ body {
   backface-visibility: hidden;
   margin-bottom: 6rem;
 
-  &-primary--main {
+  &-main {
     display: block;
     font-size: 6rem;
     font-weight: 400;
@@ -31,7 +31,7 @@ body {
   */
   }
 
-  &-primary--sub {
+  &-sub {
     display: block;
     font-size: 2rem;
     font-weight: 700;
@@ -55,5 +55,19 @@ body {
   &:hover {
     transform: skewY(2deg) skewX(15deg) scale(1.1);
     text-shadow: .5rem 1rem 2rem rgba($color-black, .2);
+  }
+}
+
+.heading-tertiary {
+  font-size: $font-size-default;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.paragraph {
+  font-size: $font-size-default;
+
+  &:not(:last-child){
+    margin-bottom: 3rem;
   }
 }
