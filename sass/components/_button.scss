@@ -1,5 +1,5 @@
-
 .btn {
+
   &:link,
   &:visited {
     text-transform: uppercase;
@@ -13,6 +13,7 @@
 
     font-size: $font-size-default;
   }
+
   &:hover {
     transform: translateY(-3px);
     box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
@@ -37,6 +38,15 @@
     }
   }
 
+  &--green {
+    background-color: $color-primary;
+    color: $color-gray-dark;
+
+    &::after {
+      background-color: $color-primary;
+    }
+  }
+
   &::after {
     content: "";
     display: inline-block;
@@ -57,6 +67,7 @@
 }
 
 .btn-text {
+
   &:link,
   &:visited {
     font-size: $font-size-default;
