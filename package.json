@@ -7,7 +7,7 @@
     "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
   "author": "Talisson Santos",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "node-sass": "^9.0.0"
   },
